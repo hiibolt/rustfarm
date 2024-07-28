@@ -178,9 +178,13 @@ def startup_with_delay():
 
 
 def main():
+    # Start the script after waiting a little bit
     startup_with_delay()
+
+    # Start the game script
     game = UbisoftGame()
 
+    # Main loop
     while True:
         try:
             game.game_loop()
