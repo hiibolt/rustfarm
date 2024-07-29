@@ -15,9 +15,11 @@ Should you encounter issues, please report them directly to me on Discord or Tel
 - Install [Python 3.9 from the Windows Store](https://apps.microsoft.com/detail/9p7qfqmjrfp7?hl=en-us&gl=US)
 
 ### Download rustfarm:
-- Open **Windows Powershell**
+- Open **Command Prompt**
 - `> git clone https://github.com/hiibolt/rustfarm.git`
 - `> cd rustfarm`
+- `> python -m venv .venv`
+- `> .venv\Scripts\activate.bat`
 - `> pip install -r requirements.txt`
 
 ### Set up Siege
@@ -31,6 +33,7 @@ Should you encounter issues, please report them directly to me on Discord or Tel
 - **IMPORTANT** - Navigate back to the main menu
 
 ### Launch `rustfarm`
+- `> .venv\Scripts\activate.bat`
 - `> python main.py`
 - Quickly, tab back into Siege
 - **IMPORTANT** - Place your cursor just above and to the left of the bottom right of your display, as it is very important your mouse does not hover over any buttons
