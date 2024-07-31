@@ -1,1 +1,7 @@
-.venv
+# Environments
+/.direnv
+.envrc
+
+# Added by cargo
+
+/target
