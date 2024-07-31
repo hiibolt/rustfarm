@@ -5,8 +5,6 @@
 ## About
 An automatic farm for a variety of types of XP and currency in multiple games.
 
-Should you encounter issues, please report them directly to me on Discord or Telegram via `@hiibolt`.
-
 ### Supported Games:
 - **Tom Clancy's Rainbow Six Siege**
 - **Apex Legends** (*under construction*)
@@ -57,5 +55,7 @@ After you have configured the game (see below), launch `rustfarm`:
 ### XDefiant
 *Under Construction*
 
-## Notes
+## Addendum
 Your overall account KD will likely be negatively impacted by using this application, and you do risk a variety of account bans, for which I am not responsible. By using this program, you understand this risk.
+
+Should you encounter issues, please report them directly to me on Discord or Telegram via `@hiibolt`.
