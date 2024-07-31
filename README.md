@@ -3,7 +3,9 @@
 <img src="https://github.com/user-attachments/assets/321518bc-3958-47d8-b24e-27fc13bb7824" width=250>
 
 ## About
-An automatic farm for a variety of types of XP and currency in multiple games.
+An automatic farm for a variety of types of XP and currency in multiple games, written in Rust with TUI.
+
+<img src="https://github.com/user-attachments/assets/505e699d-d085-4e20-a32a-2bb3f60fcba3" width=500>
 
 ### Supported Games:
 - **Tom Clancy's Rainbow Six Siege**
@@ -49,7 +51,7 @@ After you have configured the game (see below), launch `rustfarm`:
   - Menu Display Area: 100
 - **IMPORTANT** - Navigate back to the main menu and place your cursor in the bottom left (but not completely off) of your monitor
 #### Notes
-- Siege has many random errors that which are difficult to properly predict, as many block interaction when they prompted. Should an error occur, you will need to manually close it. `rustfarm` will automatically get back on track once it is closed. This is exceptionally rare because `rustfarm` will take care of most but not all errors automatically
+- Siege has a few errors which block interaction when prompted. Should such an error occur, you may need to manually close it. This is, however, exceptionally rare because `rustfarm` will take care of most but not all errors automatically.
 ### Apex Legends
 *Under Construction*
 ### XDefiant
